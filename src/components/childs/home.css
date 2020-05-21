@@ -1,0 +1,28 @@
+#resent-search3 {
+    margin-left: 30px;
+    overflow-x: auto;
+    width: 720px;
+    white-space: nowrap;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.resent-search-tag3 {
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 6px;
+    background-color: #f0f2f5;
+    color: #686868;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+.active {
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 6px;
+    background-color: #1267e7;
+    color: #f7f0f0;
+    padding: 10px 20px;
+    margin-right: 20px;
+}

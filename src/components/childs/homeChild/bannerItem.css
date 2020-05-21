@@ -1,0 +1,18 @@
+.bannerItem img {
+    width: 710px;
+    height: 252px;
+    display: block;
+    object-fit: cover;
+}
+.bannerItemTitle {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    color: white;
+    width: 710px;
+    height: 40px;
+    font-size: 30px;
+}
+.bannerItemTitle p {
+    margin: 0;
+}

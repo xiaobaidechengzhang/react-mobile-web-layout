@@ -1,0 +1,127 @@
+.articleDetail {
+    width: 710px;
+    height: 300px;
+    max-height: 2000px;
+    margin: 40px 20px;
+}
+.articleDetailCap {
+    width: 710px;
+    height: 200px;
+    max-height: 400px;
+    
+}
+.articleDetailCapTop {
+    width: 670px;
+    height: 30px;
+    margin: 10px 20px;
+}
+.articleDetailCapTop>span {
+    padding: 10px 6px;
+    color: white;
+    background-color: blue;
+    float: left;
+    font-size: 30px;
+    
+}
+.articleDetailCapTop::after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.articleDetailCapMiddle {
+    width: 670px;
+    height: 80px;
+    margin: 10px 20px;
+    text-align: left;
+}
+.articleDetailCapMiddle p {
+    font-size: 60px;
+}
+.articleDetailCapMiddle::after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+
+}
+.articleDetailCapBottom {
+    list-style: none;
+    padding: 0;
+    margin: 10px 10px;
+    height: 20px;
+}
+.articleDetailCapBottomLeft {
+    float: left;
+    font-size: 20px;
+}
+.articleDetailCapBottomLeft img {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.articleDetailCapBottomLeft p {
+    margin: 0;
+    float: left;
+}
+.articleDetailCapBottomRight {
+    float: right;
+    font-size: 20px;
+}
+.articleDetailCapBottomRight img {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.articleDetailCapBottomRight p {
+    margin: 0;
+    float: left;
+}
+.articleDetailCapBottom::after {
+    clear: both;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.articleDetailLine {
+    margin: 40px 20px;
+    width: 670px;
+    height: 0px;
+    border: 2px solid rgb(27, 18, 18);
+}
+.articleDetailDes {
+    margin-left: 20px;
+    height: 40px;
+    font-size: 40px;
+    color: black;
+    border-left: 10px solid blue;
+    padding-left: 40px;
+    text-align: left;
+}
+.content_img {
+    width: 710px;
+    height: auto;
+}
+.content_img img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.content {
+    text-align: initial;
+    padding: 20px;
+}
+.content pre {
+    background-color: #444;
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5em;
+}

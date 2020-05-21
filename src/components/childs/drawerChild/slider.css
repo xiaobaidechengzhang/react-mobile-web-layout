@@ -1,0 +1,114 @@
+
+.title>img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.zIndex {
+    
+    position: absolute;
+    z-index: 100;
+    width: 90%;
+    height: 1000px;
+    max-height: 2000px;
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%,0);
+    
+}
+.name {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 20px #d8c6c6;
+}
+.name>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 4px solid white;
+    object-fit: cover;
+}
+.login {
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    margin-top: 180px;
+    transform: translate(-50%,0);
+    background-color: rgb(124, 124, 235);
+    color: white;
+}
+.bottom {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    max-height: 2000px;
+    background-color: white;
+    box-shadow: 0px 0px 20px #d8c6c6;
+
+}
+.bottom_item {
+    width: 100%;
+    list-style: none;
+    height: 88px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(143, 127, 127);
+    font-weight: bold;
+    font-size: 30px;
+}
+.my-accordion .pad .am-accordion-content-box {
+    padding: 20px;
+}
+.bottom_item .am-accordion .am-accordion-item {
+    height: 88px;
+}
+.bottom_item .am-accordion .am-accordion-item .am-accordion-header {
+    padding-left: 30px;
+    font-size: 30px;
+    height: 88px;
+    line-height: 88px;
+
+}
+.bottom_item .am-accordion .am-accordion-item .am-accordion-header .arrow {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+.bottom_item .am-list-item {
+    position: relative;
+    display: flex;
+    padding-left: 0;
+    min-height: 88px;
+    background-color: #fff;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: background-color 200ms;
+    align-items: center;
+}
+.bottom_item .am-list-item .am-list-line .am-list-content {
+    flex: 1 1;
+    color: #000;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+    width: 100%;
+}

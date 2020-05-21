@@ -1,0 +1,64 @@
+.imgHead {
+    width: 710px;
+    height: auto;
+    margin: 40px 20px;
+    position: relative;
+}
+.imgHead>img {
+    width: 710px;
+    height: 400px;
+}
+ul, li {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+.typeAndTimes {
+    position: absolute;
+    padding: 0;
+    left: 20px;
+    bottom: 100px;
+    height: 60px;
+    width: 670px;
+    color: white;
+    margin: 0;
+
+}
+.typeAndTimesLeft {
+    float: left;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+
+}
+.typeAndTimesRight {
+    float: right;
+    font-size: 26px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.lineM {
+    width: 710px;
+    margin: 6px 0;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+    height: 1px;
+    border: 1px solid white;
+}
+.imgHeadDes {
+    width: 710px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    color: white;
+    text-align: left;
+}
